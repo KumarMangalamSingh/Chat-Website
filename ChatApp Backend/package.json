@@ -1,0 +1,20 @@
+{
+  "name": "chatapp-backend",
+  "version": "1.0.0",
+  "description": "\"Backend for the chat App for the best handling of the messages\"",
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node --watch src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@clerk/express": "^2.1.30",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "mongoose": "^9.7.1"
+  }
+}
